@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Formulário HTML</title>
+</head>
+<body>
+	<h1>Entre com sua informação</h1>
+	<form method="POST" action="formProcessor">
+		Título: <select size="1" name="title">
+			<option>Mr</option>
+			<option>Mrs</option>
+			<option>Miss</option>
+			<option>Mis</option>
+			<option>Other</option>
+		</select> <br>
+		Nome: <input type="text" name="nome" size="20"><br>	
+		Cidade: <input type="text" name="cidade" size="20"><br>
+		País: <input type="text" name="pais" size="20"><br>
+		Telefone: <input type="text" name="telefone" size="20"><br>
+		<p> Por favor informe suas áreas de interesse:<br>
+		<input type="checkbox" name="interesse" value="Esporte"> Esporte<br>
+		<input type="checkbox" name="interesse" value="Música"> Música<br>
+		<input type="checkbox" name="interesse" value="Leitura"> Leitura<br>
+		<input type="checkbox" name="interesse" value="TV e Filme"> TV e Filmes<br></p>
+		<p>Sua idade:
+		<input type="radio" name="ano" value="25ouMenos" checked="checked">Menos que 25
+		<input type="radio" name="ano" value="26a40" checked="checked">26-40
+		<input type="radio" name="ano" value="41a64" checked="checked">41-65 
+		<input type="radio" name="ano" value="65ouMais" checked="checked">Mais que 65</p>
+		<p><input type="submit" value="Enviar"> </p> 
+	</form>
+</body>
+</html>
